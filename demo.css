@@ -44,8 +44,7 @@ body{
 }
 #right {
     width: 50%;
-    padding: 3%;
-    border: 0.001px solid rgb(226, 222, 222); 
+    padding: 3%; 
 }
 #left > img {
     width: 20%;
@@ -60,13 +59,9 @@ body{
 #month > button{
     width: 40px;
     border:none;
-    border-radius: 100%;
     height: 45px;
     background-color: white;
 }
-/* button:hover{
-    background-color: rgb(112, 174, 231);
-} */
 .days{
     display: flex;
     justify-content: space-between;
@@ -92,8 +87,7 @@ body{
     font-size: 19px;
 }
 #cal > div:hover:nth-child(n+13){
-    background-color: #c4e9ff;    ;
-    pointer-events: fill;
+    background-color: #c4e9ff;
 }
 .lgrey {
     color: #9e9fa2;
@@ -120,6 +114,10 @@ body{
 #pics2 > img {
     width: 6%;
     margin: 10px
+}
+#divnew {
+    display: flex;
+    flex-direction: column;
 }
 
 
