@@ -8,6 +8,9 @@ body{
    grid-template-rows: 60px;
    font: family MuseoSans -700px, sans-serif;
    background-color: #F8F8F8;
+   position: -webkit-sticky;
+   position: sticky;
+   top: 0;
    /* border: 1px solid blue; */
 }
 .navbar > div:nth-child(1){
@@ -58,6 +61,8 @@ body{
     color: white;
     border-radius: 5px;
     margin-right: 10px;
+    cursor:pointer;
+
 }
 .navbar a:hover{
     color:#F37E5D ;
@@ -191,6 +196,7 @@ body{
 }
 .sec-F>div:nth-child(2)>div:hover{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor:pointer;
 
 }
 .sec-F>div:nth-child(2)>div:nth-child(1)>div:nth-child(1){
@@ -234,4 +240,103 @@ body{
 }
 .sec-F>div:nth-child(2)>div:nth-child(3)>div:nth-child(2){
     margin-top: 30px;
+}
+.sec-E{
+    /* border: 1px solid orange; */
+    height: 700px;
+    background-color: #F8F8F8;
+    margin-bottom: 80px;
+}
+.sec-E>div:nth-child(1){
+    color: #5B4B4B;
+    font-size: 30px;
+    font-weight: 550;
+    /* border: 1px solid darkolivegreen; */
+    text-align: center;
+    margin-top: 50px;
+}
+.container{
+    /* border: 1px solid gray; */
+    height: 550px;
+    margin-top: 40px;
+    display: grid;
+    margin-left: 15%;
+    margin-right: 15%;
+    grid-template-columns: 49.5% 0.2% 49.5%;
+    grid-template-rows: 550px;
+    
+}
+.container>div{
+    /* border: 1px solid orange; */
+    display: grid;
+    grid-template-columns: 90%;
+    grid-template-rows:180px 300px 50px;
+}
+.real_div>div:nth-child(1){
+    text-align: center;
+    /* border: 1px solid goldenrod; */
+}
+.real_div>div:nth-child(1)>img{
+    height: 60px;
+    /* border: 1px dashed yellowgreen; */
+}
+.real_div>div:nth-child(1)>p{
+    font-size: 14px;
+   
+}
+.real_div>div:nth-child(1)>h2{
+    font-family: MuseoSans-700;
+}
+.real_div>div:nth-child(2){
+    /* border: 1px solid red; */
+    padding-left: 20%;
+}
+.list_div>p:before {
+
+ content: '✓ ';
+ color: tomato;
+ font-weight: bold;
+}
+.list_div>p{
+    color: rgb(75, 75, 75);
+    font-size: 14px;
+}
+#em_1{
+    background-color: #F37E5D;
+    
+    border-radius: 5px;
+    height: 30px;
+    border: none;
+    width: 80%;
+    margin-top: 65px;
+    height: 50px;
+    font-weight: 550;
+    cursor:pointer;
+}
+a{
+    text-decoration: none;
+}
+#em_1:hover{
+    background-color:#F16B45 ;
+}
+#em_2{
+    background-color: white;
+    border: 2px solid #F16B45;
+    color:#F16B45;
+    border-radius: 5px;
+    height: 30px;
+    width: 80%;
+    height: 50px;
+    margin-top: 22px;
+    font-weight: 550;
+    cursor:pointer;
+
+}
+
+#em_2:hover{
+    background-color:#F16B45;
+    color: white;
+}
+.line{
+    background-color: rgb(228, 228, 228);
 }
