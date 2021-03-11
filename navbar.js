@@ -1,3 +1,8 @@
+// window.onscroll=function(e){
+//     document.getElementById('navbar')
+// }
+
+
 var lastscroll = 0
     var navbar = document.getElementById("navbar")
     window.addEventListener("scroll", function(){
@@ -9,3 +14,4 @@ var lastscroll = 0
         }
         lastscroll = scrollTop
     })
+
