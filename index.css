@@ -124,10 +124,7 @@ body{
     margin-top: 20px;
     font-weight: 300;
 }   
-.sec-C{
-   /* border: 1px solid red; */
-   
-}
+
 
 .sec-D>div:nth-child(2){
     display: grid;
@@ -139,9 +136,7 @@ body{
     column-gap: 7%;
     padding-bottom: 80px;
 }
-.sec-D>div:nth-child(2) > div{
-    /* border: 1px solid green; */
-}
+
 .sec-D>div:nth-child(1){
     color: #4B4B4B;
     font-family: sans-serif;
@@ -153,9 +148,7 @@ body{
     margin-top: 80px;
     margin-bottom: 40px;
 }
-.sec-D{
-    /* border: 1px solid black; */
-}
+
 .sec-F{
     background-color: white;
     text-align: center;
