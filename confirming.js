@@ -6,13 +6,13 @@ function addnum() {
     }
 }
 window.onload=()=>{
-    var url= window.location
+    var url=new URL(location)
     var params=new URLSearchParams(url.search)
     var d=params.get('date')
-   // var m=params.get('month')
-   // var s=params.get("slot")
+    console.log(params.toString())
+    var m=params.get('month')
+    var s=params.get("slot")
     var  para=document.getElementById("booking")
-      // para.innertext=`${s}, ${d}, ${m}`
-    console.log(d)
-
+     para.append(s+", "+d+"  "+m)
+  console.log(s,d,m)
 }

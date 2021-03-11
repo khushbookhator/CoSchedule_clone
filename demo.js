@@ -124,12 +124,11 @@ function askConfirm(event) {
 function confirmed(event) {
     event.preventDefault()
     let url = ('confirming.html?')
-  //  var monthv = document.getElementById('mar').textContent
+    var monthv = document.getElementById('mar').textContent
     let params = new URLSearchParams()
-   // params.append('month', `${monthv}`)
+    params.append('month', `${monthv}`)
     params.append('date', `${date}`)
-    // params.append('slot', `${slot}`)
-    
+    params.append('slot', `${slot}`)
     window.location.assign(url + params.toString())
 
 }
