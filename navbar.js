@@ -14,4 +14,3 @@ var lastscroll = 0
         }
         lastscroll = scrollTop
     })
-
