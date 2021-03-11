@@ -32,7 +32,7 @@ body{
     display: flex;
     border-radius: 10px;
     background-color: white;
-    height:580px
+    max-height:580px;
 }
 #left {
     width: 50%;
@@ -83,7 +83,7 @@ body{
 }
 #cal > div:nth-child(n+13) {
     background-color: rgba(242,250,255,255);
-    color: #11a2f7;
+    color: rgb(17, 162, 247);
     font-size: 19px;
 }
 #cal > div:hover:nth-child(n+13){
@@ -119,5 +119,110 @@ body{
     display: flex;
     flex-direction: column;
 }
+#result > div > .subs{
+    text-align: center;
+    display: flex;
+    text-align: right;
+    width: 80%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    justify-content: center;
+    padding-top: 5%;
+    height: 50px;
+    margin-left: 8%;
+    text-align: center;
+    background-color: white;
+    border: 2px solid #c4e9ff;
+    color: rgb(17, 162, 247);
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+#shrink{
+    width: 50%;
+    margin-left: 20px;
+    background-color: darkslategray;
+    color: white;
+}
+.expand{
+    width: 120px;
+    text-align: center;
+    height: 50px;
+    margin-left: 5px;
+    background-color: rgb(17, 162, 247);
+    color: white;
+    display: block;
+}
+#inp {
+    display: flex;
+}
+#secondright {
+    margin-left: 5%;
+    margin-Top: 1%;
+    width: 70%;
+}
+#bottom2 {
+    width: 80%;
+    box-shadow: 0px 0px 5px rgb(209, 207, 207); 
+    margin:auto;
+    display: flex;
+    border-radius: 10px;
+    background-color: white;
+    height:580px;
+}
+#left2 {
+    width: 30%;
+    padding: 3%;
+    border: 0.001px solid rgb(226, 222, 222); 
+}
+#secondright > label {
+    font-size: 12px;
+    font-weight: 600;
+}
+#secondright > input {
+    height:40px;
+    width: 60%;
+    border-radius: 2px;
+    border: 0.5px solid lightslategrey
+}
+#guests {
+    height:32px;
+    border: 0.5px solid rgb(17, 162, 247);
+    color: rgb(17, 162, 247);
+    background-color: white;
+    border-radius: 5px;
+    width: 16%;
+}
+#guests:hover{
+    background-color:rgb(222, 239, 248) ;
+}
+#inp{
+    border: 0.5px solid lightslategrey;
+    width: 60%;
+    height: 40px;
+}
+#inp > img {
+    width: 25px;
+    height: 18px;
+    margin: 10px
+}
+#nine{
+    margin-top:2.2%;
+}
+#inp > input {
+    border: "none";
+    width:85%
+}
+#done {
+    height:40px;
+    border: none;
+    background-color: rgb(17, 162, 247);
+    color: white;
+    border-radius: 5px;
+    width: 25%;
+}
+
+
+
 
 
