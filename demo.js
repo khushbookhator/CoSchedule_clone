@@ -102,7 +102,6 @@ function askConfirm(event) {
     event.target.style.width = "40%"
     event.target.style.color = "white"
     event.target.style.border = "1px solid grey"
-
     event.target.nextSibling.style.display = "block"
     event.target.nextSibling.style.width = "40%"
     event.target.nextSibling.style.height = "50px"
