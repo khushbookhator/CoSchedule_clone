@@ -349,12 +349,14 @@ a{
 }
 .sec-G>button{
     color:#f37e5d;
-    border:2px solid #f37e5d;
+    /* border:2px solid #f37e5d; */
+    border: none;
     font-size: 15px;
     height: 50px;
     border-radius: 5px;
     background-color: white;
     cursor: pointer;
+    outline: none;
 }
 .sec-G>button:hover{
     background-color: #FDEAE2;
