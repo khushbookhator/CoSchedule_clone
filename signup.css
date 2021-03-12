@@ -33,6 +33,10 @@ footer {
     text-align: left;
     
 }
+#submit:hover{
+    background: #f37e5d;
+    opacity: +5;
+}
 #submit {
     opacity: .5;
     background: #f37e5d;
@@ -49,9 +53,9 @@ footer {
     height: 50px;
     width: 110px;
     border-radius: 6px;
-
-
+    cursor: pointer;
 }
+
 label {
     color: #828282;
     font-size: 14px;
