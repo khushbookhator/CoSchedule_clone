@@ -26,3 +26,10 @@ close = document.getElementById("close");
    note = document.getElementById("note");
    note.style.display = 'none';
  }, false);
+
+ window.onload=()=>{
+  setTimeout(()=> {
+    let a=document.getElementById("note")
+    a.style.display="block";
+}, 3000);
+  }
