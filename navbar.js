@@ -11,4 +11,18 @@ var lastscroll = 0
             navbar.style.top = "0"
         }
         lastscroll = scrollTop
-    })
+})
+
+handleChat = () => {
+    let box = document.getElementById('c-icon')
+    let divs = document.getElementById('chat-box')
+    box.style.display = "none"
+    divs.style.display = "block"
+}
+minimise = () => {
+    let box = document.getElementById('c-icon')
+    let mini = document.getElementById('mini')
+    let divs = document.getElementById('chat-box')
+    divs.style.display = "none"
+    box.style.display = "block"
+}
