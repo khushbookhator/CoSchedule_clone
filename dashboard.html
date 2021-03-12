@@ -15,7 +15,7 @@
 <body>
     <div id="cont">
         <div id="navi">
-            <i class="fa fa-bars" aria-hidden="true"></i>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showUser()"></i>
             <i class="fa fa-home"></i>
             <p>Home</p>
             <i style="margin-left: 65%;color:#daa1a0 ;"class="fa fa-comment" aria-hidden="true"></i>
@@ -23,7 +23,27 @@
             <i class="fa fa-question" aria-hidden="true"></i>
             <i class="fa fa-bell" aria-hidden="true"></i>
         </div>
-        <div id="wrapper">
+        <div id="wrapper" onclick="stopUser()">
+            <div id="pops">
+                <div id="ab">
+                    <div id="initial"></div>
+                    <p id="username"></p>
+                </div>
+                <hr>
+                <div id="bc">
+                    <i style="color: #F2C069;"class="fa fa-trophy" aria-hidden="true"></i>
+                    <p>Getting Started</p>
+                    <p>You have 3 milestones left to complete</p>
+                </div>
+                <div id="cd">
+                    <i class="fa fa-home"></i>
+                    <p>HOME</p>
+                </div>
+                <div id="de">
+                    <i class="fa fa-calendar"></i>
+                    <p>Calendar</p>
+                </div>
+            </div>
             <div id="leftside">
                 <div id="upper">
                     <i class="fa fa-trophy" aria-hidden="true"></i>
