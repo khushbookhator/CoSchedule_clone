@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoSchedule</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel = "icon" href =  "https://ga0.imgix.net/logo/o/101415-1504014814-6921194?ixlib=rb-1.0.0&ch=Width%2CDPR&auto=format" type = "image/x-icon">
+    <link rel = "icon" href =  "https://ga0.imgix.net/logo/o/101415-1504014814-6921194?ixlib=rb-1.0.0&ch=Width%2CDPR&auto=format" 
+    type = "image/x-icon">
+</head>
+<body>
+    <div id="cont">
+        <div id="navi">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+            <i class="fa fa-home"></i>
+            <p>Home</p>
+            <i class="fa fa-comment" aria-hidden="true"></i>
+            <p>Have Questions? Contact us!</p>
+            <i class="fa fa-question" aria-hidden="true"></i>
+            <i class="fa fa-bell" aria-hidden="true"></i>
+        </div>
+        <div id="wrapper">
+            <div id="leftside">
+                <div id="upper">
+                    <i class="fa fa-trophy" aria-hidden="true"></i>
+                    <h3>Getting started</h3>
+                    <div id="tagline">
+                        <p>Successful marketers complete these milestones within their first 30 days.</p>
+                    </div>
+                    <div id="twin">
+                        <div id="griding">
+                            <div class="flexly" id="one">
+                                <div style="background-color: #8ac884;">0/1</div>
+                                <p>View the getting Started Guide.</p>
+                                <div>></div>
+                            </div>
+                            <div class="flexly" id="two">
+                                <div>0/1</div>
+                                <p>Plan a project 7+ days in adance.</p>
+                                <div>></div>
+                            </div>
+                            <div class="flexly" id="three">
+                                <div>0/1</div>
+                                <p>Add unique project types to organize your work.</p>
+                                <div>></div>
+                            </div>  
+                            <div class="flexly" id="four">
+                                <div>0/1</div>
+                                <p>Connect at least 1 intergration in Settings.</p>
+                                <div>></div>
+                            </div>
+                        </div>
+                        <div id="percent">
+    
+                        </div>
+                    </div>
+                </div>
+                <div id="lower">
+                    <div id="addnewtask">
+                        <i></i>
+                        <h2>My Upcoming</h2>
+                        <button>+ New Task</button>
+                    </div>
+                    <hr/>
+                </div>
+            </div>
+            <div id="rightside">
+                <div id="choose">
+                    <p onclick="showMeNotification()">Notifications</p>
+                    <p onclick="showMeRecents()">Recent</p>
+                    <p onclick="showMeFav()">Favourites</p>
+                </div>
+                <hr/>
+                <div id="datas">
+                    <div id="notify">
+                        <i></i>
+                        <h1>All Caught Up!</h1>
+                        <p>No new Notifications</p>
+                    </div>
+                    <div id="recent">
+                        <img>
+                        <p>Projects and campaigns that you have recently visited will appear here</p>
+                    </div>
+                    <div id="fav">
+                        <img>
+                        <p>Favorite projects and campaigns that you work on frequently and they will appear here.</p>
+                    </div>
+                    <div id="showData">
+                        <div id="edits">
+                            <p>ASSIGNED TO</p>
+                            <p></p>
+                        </div>
+                        <div>
+                            <p></p>
+                        </div>
+                            <p>Edit task</p>
+                            <i></i>
+                        </div>
+                        <div id="tasks">
+                            <p>This task is only visible to you</p>
+                        </div>
+                        <div>
+                            <input id="task-name" placeholder="Task name...">
+                            <input id="des" placeholder="Add description">
+                        </div>
+                        <div>
+                            <p></p>
+                            <p></p>
+                        </div>
+                        <div>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="dashboard.js"></script>
+</body>
+</html>

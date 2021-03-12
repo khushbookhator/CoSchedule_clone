@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="demo.css">
+    <link rel="stylesheet" href="popup.css">
     <link rel = "icon" href =  "https://ga0.imgix.net/logo/o/101415-1504014814-6921194?ixlib=rb-1.0.0&ch=Width%2CDPR&auto=format" 
         type = "image/x-icon">
 
@@ -16,8 +17,8 @@
     <style >
     </style>
 </head>
-<body>
-    <div>
+<body >
+    <div id="fullbody">
         <div id="top">
             <img src="https://coschedule.com/img/cos-logo-full-color.svg"/>
         </div>
@@ -31,9 +32,10 @@
                 <img src="https://d3v0px0pttie1i.cloudfront.net/uploads/team/avatar/14432/aaadc369.png"/>
                 <p class="lgrey">CoSchedule Sales Team</p>
                 <h2 class="dgrey">30 Minute Discovery Call</h2>
-                <p class="lgrey">30 min</p>
-                <p id="booking"></p>
-                <p class="lgrey">India Standard Time</p>
+                <p class="lgrey disflex">
+                    <img class="grayicon" src="https://www.iconsdb.com/icons/preview/gray/time-4-xl.png" /> 30 min</p>
+                <p id="booking"><img class="grayicon" src="https://cdn3.iconfinder.com/data/icons/user-interface-193/22/iconspace_Schedule-128.png" /></p>
+                <p class="lgrey disflex"><img class="grayicon" src="https://www.iconsdb.com/icons/preview/gray/globe-xl.png" /> India Standard Time</p>
             </div>
             <form id="secondright">
                 <h3>Enter Details</h3>
@@ -50,6 +52,12 @@
                 <button id="done"onclick="bookingDone()">Schedule Event</button>
             </form>
         </div>
+    </div>
+    <div id="confirmedpop">
+        <img class="pcheckmark" src="https://png2.cleanpng.com/sh/4418b13e8ac53e4c14f100c5ecb782b7/L0KzQYm3VMA3N6h8j5H0aYP2gLBuTfNpbZRwRd9qcnuwhLrqi71kd551jeZucj3sc7F1k71kdJp1RdN7dD32hcP9hgkuPZJoT6VvNkG5RYfsWcQvPGo2TqY7Mke0RYO6UMA4O2MATKMANT7zfri=/kisspng-check-mark-tick-computer-icons-clip-art-survey-5ac73f61656e94.4916422715230073294155.png"/>
+        <button id="buttonclose">X</button>
+        <h3>Confirmed</h3>
+        <div id="popupname"></div>
     </div>
     <div id="low">
         <div id="ftr">
