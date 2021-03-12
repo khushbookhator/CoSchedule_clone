@@ -36,12 +36,35 @@ bookingDone = () => {
     let nme = document.getElementById('nme').value
     let em= document.getElementById('em').value
     let con = document.getElementById('con').value
+    let popupmsg = document.getElementById("popupname");
+    let confirmedpop = document.getElementById("confirmedpop")
+    let body1 = document.getElementById("fullbody")
     if(nme !== "" && em !== "" && con !== "") {
-        alert(`Hello ${nme}!
-        Your Demo has been scheduled at ${s} on ${d} ${m}.
-        You will soon receive an invite mail from Peter Pomonis(organize)`)
+        body1.style.filter = "blur(8px)"
+        confirmedpop.style.display = "block"
+        confirmedpop.style.zindex = "2"
+        popupmsg.innerHTML = "";
+        let divname = document.createElement("div");
+        let divtime = document.createElement("p");
+        let divmsg = document.createElement("p");
+        divname.innerHTML = `Hello ${nme} !`
+        divtime.innerHTML = ` Your Demo has been scheduled at ${s} on ${d} ${m}`
+        divmsg.innerHTML = ` You will soon receive an invite mail from Peter Pomonis(organize)`
+        popupmsg.appendChild(divname);
+        popupmsg.appendChild(divtime);
+        popupmsg.appendChild(divmsg);
     }
     else {
         alert('Please fill all required fields')
     }
 }
+close = document.getElementById("buttonclose");
+function closepop() {
+    let body1 = document.getElementById("fullbody")
+    confirmedpop1 = document.getElementById("confirmedpop");
+    confirmedpop1.style.display = 'none';
+    body1.style.filter = "none"
+
+  }
+
+ close.addEventListener('click', closepop)

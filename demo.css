@@ -91,6 +91,7 @@ body{
 }
 .lgrey {
     color: #9e9fa2;
+   
 }
 .dgrey {
     color: rgb(90, 89, 89);
@@ -223,9 +224,9 @@ body{
 }
 #booking
 {
-    color: #14c5a2;
+    color: rgb(22, 206, 206);
     font-weight: 700;
-    font-size: 20px ;
+    font-size: 18px ;
 }
 #back {
     background: white;
@@ -240,7 +241,14 @@ body{
 #back:hover{
     background-color: #c4e9ff;
 }
-
+.grayicon {
+    width: 20px;
+    margin-right: 7px;
+}
+.disflex {
+    display: flex;
+   
+}
 
 
 
