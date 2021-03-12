@@ -48,3 +48,6 @@ stopUser = () => {
     let pops = document.getElementById('pops')
     pops.style.display = "none"
 }
+document.getElementById("btn")
+console.log(document.getElementById("btn"))
+{/* <input type="text" id="right" name="right" oninput="left.value = right.value; return true;" /> */}
