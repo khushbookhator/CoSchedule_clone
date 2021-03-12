@@ -115,7 +115,7 @@ body{
 #choose >p:hover {
     color: #cd735b
 }
-#notify, #recent, #fav, #showData, #edits, #tasks, #task-name, #des {
+#notify, #recent, #fav, #task-name, #des {
     display: none;
 }
 #notify > h1, #notify > p, #recent > h1, #recent > p, #fav > h1, #fav > p{
@@ -155,7 +155,7 @@ body{
     width:230px;
     position: fixed;
     background: whitesmoke;
-    display: block;
+    display: none;
 }
 #ab{
     height:40px;
@@ -214,7 +214,10 @@ body{
   height: 100px;
   margin-top: 20px;
 }
-
+#btn:hover
+{
+    display: block;
+}
 .line{
    
     width:90%;
@@ -231,6 +234,7 @@ body{
 #button>input
 {
     width: 650px;
+    display: none;
 }
 #day_block
 {
@@ -256,5 +260,6 @@ body{
     background-color: white;
     border: none;
     color: grey;
+    display: none;
 }
 
