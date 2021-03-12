@@ -32,17 +32,20 @@ function checkForm(e) {
     if(name == "") {
         namemsg.innerHTML = `Please enter your full name`
         namemsg.setAttribute("class", "msgbox")
+        namemsg.style.color = "red"
     }else {
         var namecheck = true;
     }
     if(email == "" || emailcheck == false) {
         emailmsg.innerHTML = `Please enter valid email address`
         emailmsg.setAttribute("class", "msgbox")
+        emailmsg.style.color = "red"
     }
 
     if(company == "") {
        companymsg.innerHTML = `Please enter your company name`
        companymsg.setAttribute("class", "msgbox")
+       companymsg.style.color = "red"
     }else {
         var companycheck = true;
     }
@@ -50,10 +53,12 @@ function checkForm(e) {
     if(weburl == "" || weburlcheck == false) {
         weburlmsg.innerHTML = `Please enter a valid web url`
         weburlmsg.setAttribute("class", "msgbox")
+        weburlmsg.style.color = "red"
     }
 
     if(pass == "" || pass.length<8) {
        passmsg.innerHTML = `Your Password must include at least 8 characters`
+       passmsg.style.color = "red"
        passmsg.setAttribute("class", "msgbox")
     }else {
         var passcheck = true
