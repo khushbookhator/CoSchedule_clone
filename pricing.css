@@ -1,7 +1,38 @@
 body{
   padding: 0px;
-  margin: 0px;
 
+}
+#note {
+  position: relative;
+  font-family: 'Mukta', sans-serif;
+  z-index: 101;
+  top: 0;
+  left: 0;
+  right: 0;
+  color: white;
+  background:blue;
+  text-align: center;
+  line-height: 2.5;
+  overflow: hidden; 
+  -webkit-box-shadow: 0 0 5px black;
+  -moz-box-shadow:    0 0 5px black;
+  box-shadow:         0 0 5px black;
+}
+#free
+{
+  height: 33px;
+  background-color: rgb(243,126,93);
+  color: white;
+  width: 200px;
+  border-radius: 3px;
+  border: none;
+  margin-left: 10px;
+}
+#close
+{
+  float: right;
+  border-radius: 50px;
+  margin-top: 10px;
 }
 
 
@@ -254,6 +285,12 @@ float: left;
     border-radius: 3px;
    
   }
+  #button2:hover
+  {
+  background-color: rgb(240, 86, 44) ;
+  color: white;
+  cursor: alias;
+  }
 
   .tooltip {
     margin-top: 20px;
@@ -346,6 +383,7 @@ float: left;
     width: 80%;
     margin: auto;
     font-family: 'Mukta', sans-serif;
+    background-color: white;
   }
   .ans
   {
@@ -354,7 +392,7 @@ float: left;
     float: left;
 
   }
-  @media(max-width: 1000px)
+  @media(max-width: 900px)
   {
     #Marketing
     {
@@ -379,3 +417,96 @@ float: left;
    
   }
   }
+  .link
+  {
+    color: rgb(243,126,93);
+  }
+
+  /* footer */
+  .cont {
+    width: 100%;
+    background-color: rgb(248,248,248);
+}
+
+#footer, .fbottom {
+    font-family: "MuseoSans-300",sans-serif;
+    font-size: 14px;
+    width: 80%;
+    margin: auto;
+    color: rgb(152,152,152);
+    display: grid;
+    padding: 40px;
+    gap: 3%;
+    grid-template-areas: "fsignup fproducts fwhy fcompany" 
+    ". fresources fguides ftools"
+    ;
+}
+.fboldfont {
+    color: rgb(75,75,75);
+    font-size: 17px;
+    margin: 5px 0;
+    font-weight: bold;
+
+    
+}
+#footer a, .fbottom a {
+    text-decoration: none;
+    color: rgb(152,152,152);
+}
+#footer p {
+    margin: 10px 0;
+}
+.fsignup {
+    grid-area: fsignup;
+}
+
+.fproducts {
+    grid-area: fproducts;
+}
+.fwhy {
+    grid-area: fwhy;
+}
+.fcompany {
+    grid-area: fcompany;
+}
+.fresources {
+    grid-area: fresources;
+}
+.fguides {
+    grid-area: fguides;
+}
+.ftools {
+    grid-area: ftools;
+}
+.fsignup img {
+    width: 50px;
+    margin: 0px 0px 20px 0px;
+
+}
+.fproducts img {
+    width: 20px;
+    border-radius: 1px;
+    margin-right: 10px;
+}
+.flex {
+    display: flex;
+}
+#footer hr {
+    border: rgb(241, 241, 241) solid 1px;
+   
+}
+.fbottom a {
+    text-decoration: underline;
+}
+.icon {
+margin-left: 40%;
+    gap: 8px;
+}
+.icon img {
+    width: 25px;
+    border-radius: 50%;
+}
+#footer a:hover{
+    color: #776B64;
+}
+/* end footer */
