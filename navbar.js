@@ -1,6 +1,4 @@
-// window.onscroll=function(e){
-//     document.getElementById('navbar')
-// }
+
 
 
 var lastscroll = 0
@@ -14,4 +12,3 @@ var lastscroll = 0
         }
         lastscroll = scrollTop
     })
-

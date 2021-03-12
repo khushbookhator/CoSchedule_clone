@@ -221,7 +221,25 @@ body{
     border-radius: 5px;
     width: 25%;
 }
-
+#booking
+{
+    color: #14c5a2;
+    font-weight: 700;
+    font-size: 20px ;
+}
+#back {
+    background: white;
+    width: 45px;
+    border-radius: 50%;
+    height: 45px;
+    font-size: 26px;
+    color: rgb(17, 162, 247);
+    border: 0.5px solid lightgray;
+    outline: none;
+}
+#back:hover{
+    background-color: #c4e9ff;
+}
 
 
 
