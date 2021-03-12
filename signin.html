@@ -7,9 +7,7 @@
         <title>Co-schedule Accounts</title>
         <link rel="stylesheet" type='text/css' media='screen' href="signin.css">
         <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
-        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
-        <link rel = "icon" href =  "https://ga0.imgix.net/logo/o/101415-1504014814-6921194?ixlib=rb-1.0.0&ch=Width%2CDPR&auto=format" 
-        type = "image/x-icon">
+        <script src="signin.js"></script>
     </head>
 	<body>
         <div id="cont">
@@ -17,11 +15,12 @@
             <form id="form1">
             <img id="formlogo" src="https://accounts.coschedule.com/img/cos-logo-horz.svg" alt="image">
             <label class="emaillabel">EMAIL ADDRESS</label> 
-            <input type="email" id="email" required placeholder="Email Address" /> 
+            <input type="text" id="email" placeholder="Email Address" /> 
             <label>PASSWORD</label>
-            <input type="password" id="password" required placeholder="Password" /> 
+            <input type="password" id="password" placeholder="Password" /> 
             <input type="submit" value="Sign in" id="submit"/>
         </form>
+        <div id="errormsg"></div>
         <div class="footerlink">
             <p><a href="#">need an account?</a>  |  <a href="#">forgot your password?</a> </p>
         </div>
@@ -30,6 +29,6 @@
         <img src="https://accounts.coschedule.com/img/login-boxes.svg" alt="image" class="bottomimg" />
         </div>
     
-        <script src=""></script>
+       
 	</body>
 </html>
