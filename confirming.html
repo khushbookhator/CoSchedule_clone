@@ -18,9 +18,6 @@
 </head>
 <body>
     <div>
-        <div>
-            <button></button>
-        </div>
         <div id="top">
             <img src="https://coschedule.com/img/cos-logo-full-color.svg"/>
         </div>
@@ -30,6 +27,7 @@
         </div>
         <div id="bottom2">
             <div id="left2">
+                <button id="back" onclick="window.location.href='demo.html'">←</button><br/><br/>
                 <img src="https://d3v0px0pttie1i.cloudfront.net/uploads/team/avatar/14432/aaadc369.png"/>
                 <p class="lgrey">CoSchedule Sales Team</p>
                 <h2 class="dgrey">30 Minute Discovery Call</h2>
@@ -37,21 +35,20 @@
                 <p id="booking"></p>
                 <p class="lgrey">India Standard Time</p>
             </div>
-            <div id="secondright">
+            <form id="secondright">
                 <h3>Enter Details</h3>
-                <label class="dgrey">Name *</label><br/><br/>
+                <label class="dgrey">Name *</label><br/>
                 <input type="text" id="nme"><br/><br/>
-                <label class="dgrey">Email *</label><br/><br/>
+                <label class="dgrey">Email *</label><br/>
                 <input type="email" id="em"><br/><br/>
-                <button id="guests" onclick="guestEmail()">Add Guests</button><br/><br/>
-                <label class="dgrey">What is your phone number? *</label><br/><br/>
-                <!-- <div id="inp" onclick="addnum()">
-                    <img src="https://th.bing.com/th/id/OIP.mR5EyNb8W7ps_WgMunJjlAHaFP?w=264&h=187&c=7&o=5&pid=1.7"/>
-                    <p id="nine">+91</p> -->
+                <button id="guests" onclick="guestEmail()">Add Guests</button><br/>
+                <label class="dgrey" id="lab" style="display: none;">Guests Email(s)</label><br/>
+                <input id="more-em" style="height: 70px; display: none;"></input><br/><br/>
+                <label class="dgrey">What is your phone number? *</label><br/>
                 <input value="+91" id="con">
                 <br/><br/><br/>
-                <button id="done">Schedule Event</button>
-            </div>
+                <button id="done"onclick="bookingDone()">Schedule Event</button>
+            </form>
         </div>
     </div>
     <div id="low">

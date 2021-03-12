@@ -12,6 +12,10 @@
 
    <link rel="stylesheet" type='text/css' media='screen' href="footer.css">
 
+
+   <link rel = "icon" href =  "https://ga0.imgix.net/logo/o/101415-1504014814-6921194?ixlib=rb-1.0.0&ch=Width%2CDPR&auto=format" type = "image/x-icon">
+
+
    <link rel = "icon" href =  "https://ga0.imgix.net/logo/o/101415-1504014814-6921194?ixlib=rb-1.0.0&ch=Width%2CDPR&auto=format" 
         type = "image/x-icon">
 
@@ -20,10 +24,29 @@
     <div id="navbar">
         <div>
             
-            <div><a href="navbar.html"><img src="./images_index/coslogo.svg" alt="" width="100%" height="100%" ></a></div>
-            <div id="down"><a href="#" style="padding-left: 10%;">Products</a></div>
-            <div id="down"><a href="#">Why  CoSchedule</a></div>
-            <div id="down"><a href="#">Resources</a></div>
+            <div><a href="index.html"><img src="./images_index/coslogo.svg" alt="" width="100%" height="100%" ></a></div>
+            <div id="down" class="dropdown"><a href="#" style="padding-left: 10%;" >Products</a>
+                <div class="dropdown-content" id="ddc-1">
+                    <img src="./images_index/dropdown.png" alt="">
+
+                </div>
+            </div>
+            <div id="down" class="dropdown"><a href="#" >Why  CoSchedule</a>
+                <div class="dropdown-content" id="ddc-2">
+                    <h5>Case Studies</h5>
+                    See how coschedule customers <br>
+                    have found sucess.
+                    <h5>Build Your for <br> Coschedule</h5>
+                    Get your custom RO report & see  <br> what your team could save by <br>switching to CoSchedule!
+                </div>
+            </div>
+            <div id="down" class="dropdown"><a href="#" >Resources</a>
+                <div class="dropdown-content" id="ddc-3">
+
+                    <img src="./images_index/dd3.png" alt="">
+
+                </div>
+            </div>
             <div id="down"><a href="pricing.html" style="padding-left: 30%;">Pricing</a></div>
         </div>
         <div>
@@ -35,6 +58,7 @@
         
     </div>
     <div class="sec-A">
+        
         <div>Organize All Of Your Marketing In <br> One Place. <i>From Any Place</i></div>
         <div>Get more done in less time with ony work management software for marketers.</div>
         <div>
@@ -236,6 +260,40 @@
 
 
     </div>  
+    <div id="chat-icon">
+        <img onclick="handleChat()"id="c-icon"src="images_index\ab6301e5a101ca8db995697b8be4ca89.jpeg"/>
+    </div>
+    <div class="animate__animated animate__fadeInUp" id="chat-box">
+        <div id="first">
+            <p>...</p>
+            <p>Live Chat</p>
+            <button id="mini" onclick="minimise()">__</button>
+        </div>
+        <div id="supportBot">
+            <img src="images_index\ab6301e5a101ca8db995697b8be4ca89.jpeg"/>
+            <h4>Support Bot</h4>
+            <i></i>
+            <i></i>
+        </div>
+        <div id="texting-area">
+            <form id="text-form">
+                <label>Your Name</label><br/>
+                <input id="namely" type="text"><br/><br/>
+                <label>Your Email</label><br/>
+                <input id="mails" type="email"><br/><br/>
+                <button id="na-em">SUBMIT</button>
+            </form>
+            <div>
+
+            </div>
+        </div>
+        <div id="typsmsg">
+            <input id="msgs">
+        </div>
+        <button id="startMsg">
+            Chat Now
+        </button>
+    </div>
 </body>
 <script src="navbar.js"></script>
 </html>
