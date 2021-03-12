@@ -207,3 +207,54 @@ body{
 }
 
 
+#full_block
+{
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  margin-top: 20px;
+}
+
+.line{
+   
+    width:90%;
+    
+ /* border: 2px solid grey; */
+}
+#button
+{
+    margin: auto;
+    width: 80%;
+    height: 60px;
+    border: grey;
+}
+#button>input
+{
+    width: 650px;
+}
+#day_block
+{
+    height: 40px;
+    width: 90%;
+    margin-top: 20px;
+    display: flex;
+    margin: auto;
+   
+}
+#day
+{
+    float: left;
+    width: fit-content;
+}
+#btn
+{
+    height: 30px;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: justify;
+    margin-top: -15px;
+    background-color: white;
+    border: none;
+    color: grey;
+}
+
