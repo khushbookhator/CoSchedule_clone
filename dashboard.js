@@ -4,6 +4,10 @@ window.onload = () => {
     console.log(data)
     localnm = data[0].name
     console.log(localnm)
+    let n = document.getElementById('username')
+    n.textContent = localnm
+    n.style.marginLeft = "10px"
+    n.style.fontWeight = '700'
     // localem = user[0].email;
     // console.log(localem)
 }
@@ -35,4 +39,12 @@ showMeFav =() => {
     fav.style.display = "block"
     not.style.display = "none"
     rec.style.display = "none"
+}
+showUser = () => {
+    let pops = document.getElementById('pops')
+    pops.style.display = "block"
+}
+stopUser = () => {
+    let pops = document.getElementById('pops')
+    pops.style.display = "none"
 }
