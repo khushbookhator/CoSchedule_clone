@@ -3,6 +3,7 @@ body{
     padding:0%;
     background: whitesmoke;
     color: #4d4d4d;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #navi {
     display: flex;
@@ -11,6 +12,10 @@ body{
 #navi > p {
     margin-left: 20px;
     font-weight: 600;
+}
+#navi > i {
+    margin-left: 20px;
+    margin-top: 15px;
 }
 #wrapper {
     width: 98%;
