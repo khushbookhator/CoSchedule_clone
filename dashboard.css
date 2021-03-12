@@ -2,6 +2,7 @@ body{
     margin:0%;
     padding:0%;
     background: whitesmoke;
+    color: #4d4d4d;
 }
 #navi {
     display: flex;
@@ -25,6 +26,7 @@ body{
 #rightside {
     width: 32%;
     background: white;
+    border-radius: 10px;
 }
 #upper {
     width: 95%;
@@ -76,7 +78,7 @@ body{
     width: 40px;
     height: 35px;
     border-radius: 50%;
-    background: pink;
+    background: #daa1a0;
     margin-top: 10px;
     margin-left: 10px;
     text-align: center;
@@ -93,12 +95,41 @@ body{
     display: flex;
     justify-content: space-evenly;
     background: white;
+    border-radius: 10px;
 }
 #choose > p {
     cursor: pointer;
 }
 #choose >p:hover {
-    color: orangered
+    color: #cd735b
+}
+#notify, #recent, #fav, #showData, #edits, #tasks, #task-name, #des {
+    display: none;
+}
+#notify > h1, #notify > p, #recent > h1, #recent > p, #fav > h1, #fav > p{
+    text-align: center;
+    color: gray;
+}
+#datas {
+    padding:8%
+}
+#addnewtask {
+    display: flex;
+    height: 40px;
+}
+#addnewtask > h2{
+    margin-top: 8px;
+}
+#addnewtask > button{
+    margin-left: 65%;
+    width: 15%;
+    background: #cd735b    ;
+    border-radius: 10px;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    font-weight: 700;
 }
 
 

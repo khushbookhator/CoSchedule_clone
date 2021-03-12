@@ -15,16 +15,18 @@
 <body>
     <div id="cont">
         <div id="navi">
-            <p>#</p>
-            <p>homeicone</p>
+            <i class="fa fa-bars" aria-hidden="true"></i>
+            <i class="fa fa-home"></i>
             <p>Home</p>
+            <i class="fa fa-comment" aria-hidden="true"></i>
             <p>Have Questions? Contact us!</p>
-            <p>?</p>
-            <p>bell</p>
+            <i class="fa fa-question" aria-hidden="true"></i>
+            <i class="fa fa-bell" aria-hidden="true"></i>
         </div>
         <div id="wrapper">
             <div id="leftside">
                 <div id="upper">
+                    <i class="fa fa-trophy" aria-hidden="true"></i>
                     <h3>Getting started</h3>
                     <div id="tagline">
                         <p>Successful marketers complete these milestones within their first 30 days.</p>
@@ -32,7 +34,7 @@
                     <div id="twin">
                         <div id="griding">
                             <div class="flexly" id="one">
-                                <div>0/1</div>
+                                <div style="background-color: #8ac884;">0/1</div>
                                 <p>View the getting Started Guide.</p>
                                 <div>></div>
                             </div>
@@ -58,14 +60,19 @@
                     </div>
                 </div>
                 <div id="lower">
-
+                    <div id="addnewtask">
+                        <i></i>
+                        <h2>My Upcoming</h2>
+                        <button>+ New Task</button>
+                    </div>
+                    <hr/>
                 </div>
             </div>
             <div id="rightside">
                 <div id="choose">
-                    <p onclick="showMe()">Notifications</p>
-                    <p onclick="showMe()">Recent</p>
-                    <p onclick="showMe()">Favourites</p>
+                    <p onclick="showMeNotification()">Notifications</p>
+                    <p onclick="showMeRecents()">Recent</p>
+                    <p onclick="showMeFav()">Favourites</p>
                 </div>
                 <hr/>
                 <div id="datas">
@@ -83,18 +90,17 @@
                         <p>Favorite projects and campaigns that you work on frequently and they will appear here.</p>
                     </div>
                     <div id="showData">
-                        <div id="edits"
-                        <div>
+                        <div id="edits">
                             <p>ASSIGNED TO</p>
                             <p></p>
-                        </div>>
+                        </div>
                         <div>
-                            <p>DUE</p>
+                            <p></p>
                         </div>
                             <p>Edit task</p>
                             <i></i>
                         </div>
-                        <div>
+                        <div id="tasks">
                             <p>This task is only visible to you</p>
                         </div>
                         <div>
@@ -102,18 +108,17 @@
                             <input id="des" placeholder="Add description">
                         </div>
                         <div>
-                            <p>ASSIGNED TO</p>
+                            <p></p>
                             <p></p>
                         </div>
                         <div>
-                            <p>DUE</p>
+                            <p></p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    
-
+    <script src="dashboard.js"></script>
 </body>
 </html>
