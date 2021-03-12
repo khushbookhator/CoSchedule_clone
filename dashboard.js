@@ -1,3 +1,14 @@
+window.onload = () => {
+    let data = localStorage.getItem('localuser')
+    data = JSON.parse(data)
+    console.log(data)
+    localnm = data[0].name
+    console.log(localnm)
+    // localem = user[0].email;
+    // console.log(localem)
+}
+
+
 showMeNotification =() => {
     event.preventDefault()
     let not = document.getElementById('notify')
