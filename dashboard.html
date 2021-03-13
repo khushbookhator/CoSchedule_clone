@@ -19,7 +19,7 @@
             <i class="fa fa-home"></i>
             <p>Home</p>
             <i style="margin-left: 65%;color:#daa1a0 ;"class="fa fa-comment" aria-hidden="true"></i>
-            <p style="color:#daa1a0; font-size: 14px; font-weight: 200;">Have Questions? Contact us!</p>
+            <p style="cursor: pointer ;color:#daa1a0; font-size: 14px; font-weight: 200;">Have Questions? Contact us!</p>
             <i class="fa fa-question" aria-hidden="true"></i>
             <i class="fa fa-bell" aria-hidden="true"></i>
         </div>
@@ -46,36 +46,33 @@
             </div>
             <div id="leftside">
                 <div id="upper">
-                    <i class="fa fa-trophy" aria-hidden="true"></i>
-                    <h3>Getting started</h3>
+                    
+                    <h3><i style= "color: #F2C069; margin-right: 10px;"class="fa fa-trophy" aria-hidden="true"></i>Getting started</h3>
                     <div id="tagline">
                         <p>Successful marketers complete these milestones within their first 30 days.</p>
                     </div>
                     <div id="twin">
                         <div id="griding">
                             <div class="flexly" id="one">
-                                <div style="background-color: #8ac884;">0/1</div>
+                                <div style="background-color: #8ac884;"><i class="fa fa-check"></i></div>
                                 <p>View the getting Started Guide.</p>
-                                <div>></div>
                             </div>
                             <div class="flexly" id="two">
                                 <div>0/1</div>
                                 <p>Plan a project 7+ days in adance.</p>
-                                <div>></div>
                             </div>
                             <div class="flexly" id="three">
-                                <div><p>0/3</p></div>
-                                <p>Add unique project types to organize your work.</p>
-                                <div>></div>
+                                <div>0/3</div>
+                                <p>Add unique project types to organize work.</p>
                             </div>  
                             <div class="flexly" id="four">
                                 <div>0/1</div>
                                 <p>Connect at least 1 intergration in Settings.</p>
-                                <div>></div>
                             </div>
                         </div>
                         <div id="percent">
-    
+                            <img  class="pics"src="images_index\WhatsApp Image 2021-03-13 at 9.14.31 AM.jpeg"/>
+                            <p>Setup Progress</p>
                         </div>
                     </div>
                 </div>
@@ -83,7 +80,7 @@
                     <div id="addnewtask">
                         <i></i>
                         <h2>My Upcoming</h2>
-                        <button>+ New Task</button>
+                        <button id="funs">+ New Task</button>
                     </div>
                     <hr/>
                                
@@ -173,7 +170,7 @@
                             <div class="line"><hr style="width:600px;"></div>
                           <div><button id="btn">+</button></div> 
                         </div>
-                        <div id="button"> 
+                        <div id="button">
                              <input type="text" id="left" name="left" oninput="right.value = left.value; return true;" />
                         </div>
                     </div>     
@@ -181,9 +178,9 @@
             </div>
             <div id="rightside">
                 <div id="choose">
-                    <p onclick="showMeNotification()">Notifications</p>
-                    <p onclick="showMeRecents()">Recent</p>
-                    <p onclick="showMeFav()">Favourites</p>
+                    <p id="pone" onclick="showMeNotification()">Notifications</p>
+                    <p id="ptwo" onclick="showMeRecents()">Recent</p>
+                    <p id="pthree" onclick="showMeFav()">Favourites</p>
                 </div>
                 <hr/>
                 <div id="datas">
@@ -193,39 +190,31 @@
                         <p>No new Notifications</p>
                     </div>
                     <div id="recent">
-                        <img>
+                        <img src="images_index\msgs.jpeg"/>
                         <p>Projects and campaigns that you have recently visited will appear here</p>
                     </div>
                     <div id="fav">
-                        <img>
+                        <img src="images_index\favs.jpeg"/>
                         <p>Favorite projects and campaigns that you work on frequently and they will appear here.</p>
                     </div>
-                    <div id="showData">
-                        <div id="edits">
-                            <p>ASSIGNED TO</p>
-                            <p></p>
-                        </div>
-                        <div>
-                            <p></p>
-                        </div>
-                            <p>Edit task</p>
-                            <i></i>
-                        </div>
-                        <div id="tasks">
-                            <p>This task is only visible to you</p>
-                        </div>
-                        <div>
-                            <input id="task-name" placeholder="Task name...">
-                            <input id="des" placeholder="Add description">
-                        </div>
-                        <div>
-                            <p></p>
-                            <p></p>
-                        </div>
-                        <div>
-                            <p></p>
-                        </div>
+                    <di id="task">
+                        <p>This task is only visible to you.</p>
                     </div>
+                    <div id="showData">
+                    </div>
+                    
+                    <div id="assigned">
+                        <hr/>
+                        <p class="greyish">ASSIGNED TO</p>
+                        <p id="loginman"></p>
+                        <hr/>
+                        <p class="greyish">DUE</p>
+                        <select id="dropD">
+                            <option>Custom Date</option>
+                            <option>No Due Date</option>
+                        </select>
+                    </div>
+
                 </div>
             </div>
         </div>
