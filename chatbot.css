@@ -3,11 +3,12 @@
     position: fixed;
     bottom: 20px;
     right: 35px;
-    z-index: 1000%;
+    z-index: 100;
 }
 #chatimg {
     width: 80px;
     cursor: pointer;
+    z-index: 100;
 }
 #chatbox {
     display: none;
@@ -19,7 +20,7 @@
     font-family: "Noto Sans", sans-serif;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 8px;
-    z-index: 1000%;
+    z-index: 100;
     background-color: white;
    
 }
@@ -35,16 +36,19 @@
     top: 2px;
     right: 20px;
     cursor: pointer;
+    z-index: 100;
 }
 .chatbody {
    background-color: rgb(246,246,247);
    height: 90%;
+   z-index: 100;
 }
 .profileimg {
     position: relative;
     top: 25px;
     left: 40%;
     width: 50px;
+    z-index: 100;
 }  
 #form2 {
     background-color: white;
