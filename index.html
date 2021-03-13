@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Organizing your marketing in one place</title>
    <link rel="stylesheet" href="index.css">
+   <link rel="stylesheet" href="chatbot.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
@@ -260,7 +261,51 @@
 
 
     </div>  
-    <div id="chat-icon">
+    <div id="chatlogo">
+        <img onclick="startChat()" id="chatimg" src="https://pbs.twimg.com/profile_images/1250694046223343633/s8glCYfh_400x400.jpg" alt="image"/>
+    </div>
+    <div id="chatbox">
+        <div class="chathead">
+            <div class="livechat">livechat</div>
+            <div onclick="closepop()" id="minimise">_</div>
+        </div>
+        <div class="chatbody">
+            <img class="profileimg" src="https://www.iconsdb.com/icons/preview/color/F37E5D/guest-xxl.png" />
+            <div id="form2">
+                <div>To help us provide the best customer service, please confirm your name & email address below:</div><br>
+                <label class="label1">Name:</label><br>
+                <input id="name1" type="text"/><br><br>
+                <label class="label1">E-mail:</label><br>
+                <input id="email1" type="email"/><br><br>
+                <input onclick="enterdetails()" id="submit1" type="submit" value="Start the chat" />
+            </div>
+
+        </div>
+    </div>
+    <div id="chatbox2">
+        <div class="chathead">
+            <div class="livechat">livechat</div>
+            <div onclick="closechat2()" id="minimise2">_</div>
+            <div onclick="closechat2()" id="close2">X</div>
+        </div>
+        <div class="chatbody">
+            <img class="profileimg" src="https://www.iconsdb.com/icons/preview/color/F37E5D/guest-xxl.png" />
+            <div id="displaydetail">
+                <div class="font12">Name:</div>
+                <div id="displayname"></div>
+                <div class="font12">E-mail:</div>
+                <div id="displayemail"></div>
+            </div>
+            <div id="msgbox">
+                <div id="inputbox">
+                    <input id="inputtext" type="text" placeholder="  type here..." />
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+    <!-- <div id="chat-icon">
         <img onclick="handleChat()"id="c-icon"src="images_index\ab6301e5a101ca8db995697b8be4ca89.jpeg"/>
     </div>
     <div class="animate__animated animate__fadeInUp" id="chat-box">
@@ -293,7 +338,7 @@
         <button id="startMsg">
             Chat Now
         </button>
-    </div>
+    </div> -->
     
     <div class="bg-modal" id="modal_1">
             <span id="cross">X</span>
@@ -315,4 +360,5 @@
 </body>
 <script src="navbar.js"></script>
 <script src="modal.js"></script>
+<script src="chatbot.js"></script>
 </html>

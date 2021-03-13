@@ -1,0 +1,136 @@
+#chatlogo{
+    display: block;
+    position: fixed;
+    bottom: 20px;
+    right: 35px;
+    z-index: 1000%;
+}
+#chatimg {
+    width: 80px;
+    cursor: pointer;
+}
+#chatbox {
+    display: none;
+    position: fixed;
+    top: 30px;
+    right: 30px ;
+    width: 300px;
+    height: 550px;
+    font-family: "Noto Sans", sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
+    z-index: 1000%;
+    background-color: white;
+   
+}
+.chathead {
+    height: 20px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#minimise {
+    position: absolute;
+    top: 2px;
+    right: 20px;
+    cursor: pointer;
+}
+.chatbody {
+   background-color: rgb(246,246,247);
+   height: 90%;
+}
+.profileimg {
+    position: relative;
+    top: 25px;
+    left: 40%;
+    width: 50px;
+}  
+#form2 {
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    border-radius: 8px;
+    padding: 40px 10px 20px;
+    color: rgb(138,138,138);
+    
+}
+#form2 .label1 {
+    margin-top: 10px;
+}
+#name1, #email1 {
+    width: 90%;
+    height: 30px;
+    border-radius: 7px;
+    border: rgb(138,138,138) solid 1px;
+    background-color: rgb(243, 236, 236);
+}
+#submit1 {
+    width: 93%;
+    background-color: rgb(243,126,93);
+    color: white;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    padding: 5px 7pxs;
+    border-radius: 7px;
+
+}
+#chatbox2 {
+    display: none;
+    position: fixed;
+    top: 30px;
+    right: 30px ;
+    width: 300px;
+    height: 550px;
+    font-family: "Noto Sans", sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
+    padding: 10px;
+    z-index: 1000%;
+    background-color: white;
+   
+}
+#minimise2 {
+    position: absolute;
+    top: 10px;
+    right: 40px;
+    cursor: pointer;
+}
+#close2 {
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    cursor: pointer;
+}
+#displaydetail {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    color: rgb(138,138,138);
+}
+#inputtext {
+    width: 80%;
+    position: absolute;
+    bottom: 40px;
+    left: 30px;
+    border-radius: 50px;
+    border: rgb(214, 209, 209) solid 1px;
+    height: 30px;
+    outline: none;
+}
+.font12 {
+    color: gray;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    background-color: rgb(243, 205, 205);
+    padding: 4px;
+    border-radius: 8px;
+}
+#displayname, #displayemail {
+    background-color: rgb(240, 236, 236);
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+}
