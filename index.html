@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Organizing your marketing in one place</title>
    <link rel="stylesheet" href="index.css">
+   <link rel="stylesheet" href="chatbot.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
@@ -27,7 +28,7 @@
             <div><a href="index.html"><img src="./images_index/coslogo.svg" alt="" width="100%" height="100%" ></a></div>
             <div id="down" class="dropdown"><a href="#" style="padding-left: 10%;" >Products</a>
                 <div class="dropdown-content" id="ddc-1">
-                    <img src="./images_index/dropdown.png" alt="">
+                    <a href="#here"><img src="./images_index/dd1.png" alt=""></a>
 
                 </div>
             </div>
@@ -104,7 +105,7 @@
         <div>Our Products</div>
         <div class="container">
             <div class="real_div">
-                <div>
+                <div id="here">
                     <img src="./images_index/marketing-calendar.png" alt="">
                     <h2>Marketing Calendar</h2>
                     <p>A calendar that helps you see, schedule, and <br> share your marketing.</p>
@@ -160,7 +161,7 @@
             </div>
             <div>
                 <div>
-                    <img src="./images_index/inc-5000.webp" alt="">
+                    <a href=""></a><img src="./images_index/inc-5000.webp" alt="">
                 </div>
                 <div>
                     One Of The Fatest-Growing <br> Marketing Platforms 3 Years In a Row.
@@ -179,7 +180,7 @@
     </div>
     <div class="sec-G">
         <h2>Organise all your marketing  in one place</h2>
-        <button>Start Your Free 14 Day Trial</button>
+        <button onclick="pageChange()">Start Your Free 14 Day Trial</button>
 
     </div>
     <div class="cont">
@@ -260,7 +261,51 @@
 
 
     </div>  
-    <div id="chat-icon">
+    <div id="chatlogo">
+        <img onclick="startChat()" id="chatimg" src="https://pbs.twimg.com/profile_images/1250694046223343633/s8glCYfh_400x400.jpg" alt="image"/>
+    </div>
+    <div id="chatbox">
+        <div class="chathead">
+            <div class="livechat">livechat</div>
+            <div onclick="closepop()" id="minimise">_</div>
+        </div>
+        <div class="chatbody">
+            <img class="profileimg" src="https://www.iconsdb.com/icons/preview/color/F37E5D/guest-xxl.png" />
+            <div id="form2">
+                <div>To help us provide the best customer service, please confirm your name & email address below:</div><br>
+                <label class="label1">Name:</label><br>
+                <input id="name1" type="text"/><br><br>
+                <label class="label1">E-mail:</label><br>
+                <input id="email1" type="email"/><br><br>
+                <input onclick="enterdetails()" id="submit1" type="submit" value="Start the chat" />
+            </div>
+
+        </div>
+    </div>
+    <div id="chatbox2">
+        <div class="chathead">
+            <div class="livechat">livechat</div>
+            <div onclick="closechat2()" id="minimise2">_</div>
+            <div onclick="closechat2()" id="close2">X</div>
+        </div>
+        <div class="chatbody">
+            <img class="profileimg" src="https://www.iconsdb.com/icons/preview/color/F37E5D/guest-xxl.png" />
+            <div id="displaydetail">
+                <div class="font12">Name:</div>
+                <div id="displayname"></div>
+                <div class="font12">E-mail:</div>
+                <div id="displayemail"></div>
+            </div>
+            <div id="msgbox">
+                <div id="inputbox">
+                    <input id="inputtext" type="text" placeholder="  type here..." />
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+    <!-- <div id="chat-icon">
         <img onclick="handleChat()"id="c-icon"src="images_index\ab6301e5a101ca8db995697b8be4ca89.jpeg"/>
     </div>
     <div class="animate__animated animate__fadeInUp" id="chat-box">
@@ -293,17 +338,17 @@
         <button id="startMsg">
             Chat Now
         </button>
-    </div>
+    </div> -->
     
     <div class="bg-modal" id="modal_1">
             <span id="cross">X</span>
            <div class="modal-content">
                <div class="modal-image">
-                   <img src="./images_index/ditch.png" alt="">
+                   <img src="./images_index/ditch.png" alt="" id="modal-image">
                </div>
                <div class="modal-text">
-                    <h3>Ditch the spreadsheets for good.</h3>
-                    <p>Finally see all of your marketing in one place with marketing <br> calendar software from CoSchedule.</p>
+                    <h3 id="modal_heading">Ditch the spreadsheets for good.</h3>
+                    <p id="modal_para">Finally see all of your marketing in one place with marketing <br> calendar software from CoSchedule.</p>
                     <button onclick="pageChange()">
                         Start A Free Trial
                     </button>                   
@@ -315,4 +360,5 @@
 </body>
 <script src="navbar.js"></script>
 <script src="modal.js"></script>
+<script src="chatbot.js"></script>
 </html>

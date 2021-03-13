@@ -1,8 +1,10 @@
 body{
-  padding: 0px;
+  padding: 0%;
 
 }
+
 #note {
+  display: none;
   position: relative;
   font-family: 'Mukta', sans-serif;
   z-index: 101;
@@ -33,9 +35,10 @@ body{
   float: right;
   border-radius: 50px;
   margin-top: 10px;
+  background-color: blue;
+  border: none;
+  margin-right: 10px;
 }
-
-
 #logo_div>img
 {
 
@@ -54,6 +57,7 @@ body{
     font-family: 'Mukta', sans-serif;
     height:fit-content;
     justify-content: center;
+    margin-top: -9px;
 }
 #organiged
 {

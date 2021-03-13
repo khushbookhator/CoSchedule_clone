@@ -19,7 +19,7 @@ function formSignin(e) {
     errormsg1.innerHTML = "";
     console.log(email1, pass)
     if(email1 == localemail && localpass == pass) {
-        location.assign("demo.html")
+        location.assign("dashboard.html")
     }else {
         errormsg1.innerHTML = "incorrect email or password"
     }
