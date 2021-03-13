@@ -31,5 +31,5 @@ close = document.getElementById("close");
   setTimeout(()=> {
     let a=document.getElementById("note")
     a.style.display="block";
-}, 3000);
+}, 5000);
   }
