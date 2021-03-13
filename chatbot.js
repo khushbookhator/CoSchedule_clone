@@ -21,10 +21,10 @@ function enterdetails() {
     document.getElementById("chatbox2").style.display = "block"
 }
 
-function startChating(email, name) {
-    console.log(email, name)
+function startChating(name, email) {
+    //console.log(email, name)
     document.getElementById("displayname").innerHTML = name;
-    document.getElementById("displayemail").innerHTML = email
+    document.getElementById("displayemail").innerHTML = email;
 }
 
 function closechat2() {

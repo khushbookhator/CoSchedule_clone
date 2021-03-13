@@ -88,8 +88,9 @@ body{
     min-height: 500px;
 }
 .flexly >div:nth-child(1) {
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
+    padding:10px;
     border-radius: 50px;    
     background: #daa1a0;
     margin-top: 10px;
@@ -97,7 +98,12 @@ body{
     text-align: center;
     color: white;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 16px;
+}
+.greyish {
+    color: lightgray;
+    font-weight: 800;
+    font-size: 14px;
 }
 .flexly > div:nth-child(3) {
     margin-left: 30px;
@@ -214,10 +220,6 @@ body{
   height: 100px;
   margin-top: 20px;
 }
-#btn:hover
-{
-    display: block;
-}
 .line{
    
     width:90%;
@@ -229,12 +231,12 @@ body{
     margin: auto;
     width: 80%;
     height: 60px;
-    border: grey;
+    border: lightgray;
 }
-#button>input
+#left
 {
     width: 650px;
-    display: none;
+    border: 0.5px solid lightgray
 }
 #day_block
 {
@@ -260,6 +262,56 @@ body{
     background-color: white;
     border: none;
     color: grey;
+    outline: none;
+}
+#edits {
+    display: flex;
+    margin-top: 0px;
+
+}
+#showData {
+    margin-top: 0;
+}
+#recent > img, #fav > img {
+    width: 80%;
+    margin-left:60px
+}
+.pics {
+    width: 60%;
+    margin-left: 23%;
+}
+#percent > p {
+    margin-left: 20%;
+}
+#percent {
+    width:20%
+}
+#dropD {
+    width: 90%;
+    height:50px;
+    border: 0.5px solid lightgray;
+    margin:auto;
+    border-radius: 5px;
+    margin-left: 20px;
     display: none;
 }
-
+option {
+    width: 90%;
+    height:50px;
+    border: 0.5px solid lightgray;
+    margin:auto;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+#assigned {
+    display: none;
+}
+#task {
+    height:30px;
+    color: lightgray;
+    width: 100%;
+    display: none;
+}
+#assigned, #showData {
+    margin-left: 20px;
+}
