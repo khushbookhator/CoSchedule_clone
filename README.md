@@ -27,8 +27,10 @@ In the project directory, I've tried to clone Co-schedule application. User can 
 
 ## Contributers
 <a href="https://github.com/Ashish51997">Ashish Roul</a>
+
 <a href="https://github.com/satwikn07">Satwik Nayak</a>
-<a href="https://github.com/ssunilkkumar">Ashish Roul</a>
+
+<a href="https://github.com/ssunilkkumar">Sunil Kumar</a>
 
 
 ## Setup Instructions
