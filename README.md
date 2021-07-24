@@ -1,4 +1,4 @@
-<h2>Everstylish Clone</h2>
+<h2>Co-Schedule Clone</h2>
 In the project directory, I've tried to clone Co-schedule application. User can browse the pricing and dashboard pages and can also book for a demo session to this website.
 
 <hr/>
