@@ -34,6 +34,8 @@ In the project directory, I've tried to clone Co-schedule application. User can 
 
 
 ## Setup Instructions
-Clone down this repository and you will will be able to run this locally.
+Clone down this repository using this <a href="https://github.com/khushbookhator/CoSchedule_clone">link</a>
+
+Now you will will be able to run this locally using index.html path.
 
 
